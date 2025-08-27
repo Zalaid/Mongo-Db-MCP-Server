@@ -30,7 +30,7 @@ Email: zalaidbutt1@gmail.com
 3. Create a `.env` file with your MongoDB configuration:
 
 ```env
-MONGO_URI=mongodb://localhost:27017
+MONGO_URI=mongodb://localhost:####
 MONGO_DB_NAME=your_database_name
 ```
 
