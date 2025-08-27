@@ -135,7 +135,7 @@ Create a `.env` file in the mongodb-server directory with:
 
 ```env
 # MongoDB Connection
-MONGO_URI=mongodb://localhost:27017
+MONGO_URI=mongodb://localhost:###
 # Or for MongoDB Atlas:
 # MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/
 
@@ -149,17 +149,6 @@ MONGO_DB_NAME=your_database_name
 2. **Permission Errors**: Make sure your MongoDB user has appropriate permissions
 3. **Path Issues**: Ensure all file paths in the Claude Desktop configuration are correct
 4. **Dependencies**: Run `pip install -r requirements.txt` to install missing packages
-
-## Security Notes
-
-- Never commit your `.env` file to version control
-- Use strong authentication for production MongoDB instances
-- Limit database user permissions to only necessary operations
-- Consider using MongoDB Atlas for production deployments
-
-## License
-
-This project is open source and available under the MIT License.
 
 ## Contributing
 
